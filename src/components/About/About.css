@@ -1,0 +1,31 @@
+/* -------About CSS------- */
+.about-card {
+    height: 60vh;
+    background-image: url('https://images.pexels.com/photos/1866149/pexels-photo-1866149.jpeg?auto=compress&cs=tinysrgb&dpr=1&w=500');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    margin-bottom: 2%;
+    margin-top: 5%;
+}
+
+/* .about-card:hover {
+    transform: scale(1.03);
+    transition: all 0.5s ease;
+    z-index: 999;
+} */
+
+.abouthead{
+    margin-top: 1%;
+    margin-bottom: 2%;
+}
+.rowp{
+    margin-top:4%;
+    text-align: center;
+}
+.col-sm:hover{
+    transition: all 0.5s ease;
+    transform: scale(1.05);
+}

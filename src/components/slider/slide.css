@@ -1,0 +1,24 @@
+.slide img {
+    width: 120vw;
+    /* height: 50%; */
+    /* margin: 0px 40px; */
+    max-height: 420px;
+  }
+  .slide {
+    margin-top: 0vh;
+    margin-right: 0;
+    max-width:100vw ;
+    
+    
+  }
+  .slide .slick-prev:before,
+  .slide .slick-next:before {
+    border: none;
+    color: transparent;
+    font-size: 20px;
+  }
+  .hr{
+    margin: 1%;
+    /* margin-top:10px; */
+  }
+  

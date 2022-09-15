@@ -1,0 +1,92 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.pfimage img{
+   height: 40px;
+   width: 40px;
+   border-radius: 50% ;
+   margin-right: 30px;
+}
+.profilename{
+    width: 220px;
+    display: flex;
+    padding: 5px 10px;
+    /* justify-content: space-between; */
+
+box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;
+   
+    margin-bottom: 30px;
+}
+.profilename h5{
+    font-size: 20px;
+    font-weight: bold;
+}
+.container{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 40px;
+   
+}
+.leftslider{
+    height: 100%;
+    width: 30%;
+    
+    
+}
+.allfeatures{
+    height: 100%;
+    width: 30%;
+}
+.information{
+    height: 100%;
+    width: 70%;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+    margin-left: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.feat{
+    border: 1px solid gray;
+   
+    height: 100%;
+    
+    width: 220px;
+}
+.account{
+    display:  flex;
+    
+    align-items: center;
+}
+.account h6{
+    font-size: 15px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.account img{
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+    margin-left: 10px;
+}
+.accountwrap p{
+    margin-left: 50px;
+}
+.infitem{
+    display: flex;
+    margin-left: 20px;
+    align-items: center;
+    
+    font-weight: bold;
+}
+.paccount h6{
+    font-weight: bold;
+    font-size: 20px;
+}
+.paccount input{
+    font-weight: 60px;
+    font-size: 10px;
+}

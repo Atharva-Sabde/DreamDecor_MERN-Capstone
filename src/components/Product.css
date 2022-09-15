@@ -1,0 +1,65 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    max-width: 100%;
+}
+.Container{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 100%;
+}
+.actions{
+    display: flex;
+    justify-content: space-between;
+}
+.itemPage{
+    height: 400px;
+    width: 280px;
+    /* border: 1px solid gray; */
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+   margin: 20px 0px;
+   margin-left: 30px;
+}
+.prodimg{
+    height: 50%;
+    width: 100%;
+}
+.wrapperdesc{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.acbtnforprod button {
+    background-color: yellow;
+  
+    border: none;
+    color: black;
+    margin-top: 10px;
+    padding: 0px 5px;
+}
+.prodtitle{
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+}
+.favicon{
+    margin-left: 90%;
+}
+.desccontains{
+    display: flex;
+     align-items: center;
+    justify-content: center;
+}
+.redColor{
+    color: red;
+}
+.stockstatus{
+    margin: 10px 10px;
+    font-size: 20px;
+    padding: 5px;
+}
+.greenColor{
+    color: green
+}

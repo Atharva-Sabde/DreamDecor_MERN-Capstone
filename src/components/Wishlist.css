@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+h2{
+    text-align: center;
+    font-size: 30px;
+    margin-top: 40px;
+  
+}
+.wishItems{
+    display: flex;
+    max-width: 100%;
+    height: 100%;
+    flex-direction: column;
+    margin: 50px;
+}
+.wish{
+    height: 200px;
+    width: 90%;
+    border: 1px solid gray;
+    display: flex;
+    align-items: center;
+   padding: 20px 40px;
+}
+.wishimage{
+    height: 120px;
+    width: 250px;
+}
+.wishimage img{
+    height: 100%;
+    width: 100%;
+}
+.wishdesc{
+    margin-left: 200px;
+}
+h1{
+    font-size: 25px;
+    margin: 10px 0px;
+}
+.action{
+    margin-left: 350px;
+}
+.review{
+    margin: 0px 5px;
+    
+}

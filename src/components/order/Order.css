@@ -1,0 +1,27 @@
+*{
+    margin:0;
+    padding:0
+}
+.successfulOrderContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.succescontainer{
+    background-color:white;
+    height: 300px;
+    width: 300px;
+    padding: 5px;
+    color:black
+    
+}
+.datathank{
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.orderPlacedClip__clip {
+    width: 80%;
+  }

@@ -1,0 +1,29 @@
+.back{
+    text-decoration: none;
+    color: #0f0c29;
+}
+.back:hover{
+    color: #EA9130;
+}
+.hello{
+    border: 1px solid #C06D1F;
+    border-radius: 5px;
+}
+.hello:hover{
+    border: 1px solid #814827;
+    border-radius: 5px;
+}
+.hello:focus{
+    /* border: 1px solid #814827; */
+    outline-color: #814827;
+    border-radius: 5px;
+}
+.chng:hover{
+    background-color: #814827;
+    color: white;
+    transition: all 0.5s linear;
+}
+.chng{
+    background-color: #EA9130;
+    color: black;
+}
