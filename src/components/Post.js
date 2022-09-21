@@ -20,7 +20,7 @@ function Posts({ post, rating }) {
                       src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8H1cJiq2N6D8u6lQMkP_-iPVu7d2XZbevhfUNM6obwXcUkeMDvJEsak3kTjvqAr67DDY&usqp=CAU"
                       alt=""
                     />{" "}
-                    <h1>Brijesh Jha | 7 Aug 2021 </h1>{" "}
+                    <h1>Atharva Sabde | 15 sep 2022 </h1>{" "}
                   </div>
                 </div>
         </div>

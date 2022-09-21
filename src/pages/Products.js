@@ -13,7 +13,7 @@ const Products = ({user}) => {
 
   return (
     <>
-      <MetaData title="ECOMMERCE" />
+      <MetaData title="DreamDecor" />
       <Navbartest 
        user={user}></Navbartest>
       <Subnavbar></Subnavbar>

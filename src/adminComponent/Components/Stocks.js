@@ -10,7 +10,7 @@ const Stocks=()=>{
     const {products}=useSelector((state)=>state.info.data)
     const [isEmail,setIsEmail]=useState(false)
     const [toName,setToName]=useState('Product Team')
-    const [toEmail,setToEmail]=useState('drivearitry08@gmail.com')
+    const [toEmail,setToEmail]=useState('atharva.sabde@globallogic.com')
     const [title,setTitle]=useState('')
     const [price,setPrice]=useState(-1)
     const [quantity,setQuantity]=useState(-1)

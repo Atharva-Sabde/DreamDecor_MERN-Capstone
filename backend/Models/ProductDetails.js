@@ -1,0 +1,42 @@
+const mongoose=require('mongoose')
+mongoose.connect("mongodb+srv://atharva-gl:atharva-gl@cluster0.ahbcmqr.mongodb.net/?retryWrites=true&w=majority").then((res)=>console.log("Connected to Product db!")).catch((e)=>console.log("Error in connection: ",e))
+const productModel=mongoose.model("FinalProductCollection",{
+    img:{
+        type:Array,
+        required:true
+    },
+    category:{
+        type:String,
+        required:true
+    },
+    title:{
+        type:String,
+        required:true
+    },
+    description:{
+        type:String,
+        required:true
+    },
+    primaryMaterial:{
+        type:String,
+        required:true
+    },
+    isReturnable:{
+        type:String,
+        default:"No",
+        enum:["No","Yes"]
+    },
+    stocks:{
+        type:Number,
+        required:true
+    },
+    price:{
+        type:Number,
+        required:true
+    },
+    reviews:{
+        type:Array,
+        default:[]
+    }
+})
+module.exports=productModel

@@ -10,7 +10,7 @@ const CategoryDisplayPage = ({user}) => {
   console.log(newdata)
   return (
     <>
-      <MetaData title="PRODUCTS -- ECOMMERCE" />
+      <MetaData title="PRODUCTS" />
       <Navbartest 
        user={user}></Navbartest>
       <Subnavbar></Subnavbar>

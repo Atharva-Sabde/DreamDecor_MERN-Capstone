@@ -11,7 +11,7 @@ const SHomePage = () => {
 
     return (
         <div className='SpecttorHomePage'>
-            <MetaData title="ECOMMERCE" />
+            <MetaData title="DreamDecor" />
             <div className="landing-page-hero">
                 <PauseOnHover />
             </div>
