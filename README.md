@@ -1,3 +1,11 @@
+# References:
+
+https://lucid.app/lucidchart/8cef293d-0405-45f8-a890-9455298c0765/edit?invitationId=inv_a0f857ba-cef5-4363-b263-3a1768cc3637&page=0_0#
+
+https://whimsical.com/examples-AMDVShhXHEHbnUKPUmiP4f#
+
+https://prezi.com/view/ZcMddNtRMoHrYWB4JZZ1/
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
